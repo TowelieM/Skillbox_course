@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'eshop';
+  inCart = 0;
+  addToCart(){
+    this.inCart += 1;
+  }
 }
