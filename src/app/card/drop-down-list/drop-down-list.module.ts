@@ -1,7 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { DropDownListComponent } from './drop-down-list.component';
-import { ButtonModule } from '../button/button.module';
+import { ButtonModule } from 'src/app/button/button.module';
+
 
 
 @NgModule({
@@ -10,7 +11,7 @@ import { ButtonModule } from '../button/button.module';
   ],
   imports: [
     CommonModule,
-    ButtonModule
+ButtonModule
   ],
   exports: [
     DropDownListComponent

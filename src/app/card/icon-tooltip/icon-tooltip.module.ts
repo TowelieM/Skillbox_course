@@ -5,6 +5,7 @@ import { IconModule } from '../icon/icon.module';
 import { TooltipModule } from '../tooltip/tooltip.module';
 
 
+
 @NgModule({
   declarations: [IconTooltipComponent],
   imports: [

@@ -1,0 +1,23 @@
+<div class = "card">
+    <div class="card_inner">
+        <app-badge class = "card_badge" [badge]="product.badge"></app-badge>
+        <figure class="card_gallery">
+            <img class="card_color-options" [src]="product.image">
+        </figure>
+    <div class="card_color-options">
+        <app-icon-tooltip></app-icon-tooltip>
+    </div>
+    <div class="card_company">{{product.company}}</div>
+    <div class="card_title">{{product.title}}</div>
+    
+    <div class="card_rates">
+        <app-rating></app-rating>
+        <span class="card_reviews">{{product.reviews}}</span>
+    </div>
+    <app-price></app-price>
+    <div class="card_actions"></div>
+    <app-icon></app-icon>
+    <app-button></app-button>
+</div>
+<app-delivery-options [options]="product.deliveryOptions"></app-delivery-options>
+</div>  
